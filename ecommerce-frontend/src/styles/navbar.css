@@ -1,22 +1,32 @@
-nav {
-  background: #1e293b;
-  color: white;
-  padding: 15px 40px;
-
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 15px 40px;
+
+  background-color: #0f172a;
+  color: white;
 }
 
-nav ul {
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu {
   display: flex;
   gap: 25px;
 }
 
-nav li {
+.menu li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
   cursor: pointer;
 }
 
-nav li:hover {
+.menu li:hover {
   color: orange;
 }

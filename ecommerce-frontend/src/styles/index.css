@@ -1,0 +1,21 @@
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  width: 350px;
+  padding: 10px;
+
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+
+  background: orange;
+
+  border: none;
+
+  cursor: pointer;
+}
