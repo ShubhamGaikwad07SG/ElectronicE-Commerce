@@ -1,8 +1,16 @@
+import Hero from "./Hero";
+import CategorySection from "./CategorySection";
+import FeaturedProducts from "./FeaturedProducts";
+import DealsSection from "./DealsSection";
+import "../../styles/home.css";
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <Hero />
+      <CategorySection />
+      <FeaturedProducts />
+      <DealsSection />
+    </>
   );
 }
 
